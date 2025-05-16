@@ -1,0 +1,10 @@
+run = "python3 bot.py"
+modules = ["python-3.8"]
+
+
+[nix]
+
+[[ports]]
+localPort = 8000
+externalPort = 80
+
